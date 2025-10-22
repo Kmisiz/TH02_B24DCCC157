@@ -1,0 +1,22 @@
+.post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.post-form input, .post-form textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+.post-form button {
+  padding: 10px;
+  border: none;
+  background: #0077cc;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
